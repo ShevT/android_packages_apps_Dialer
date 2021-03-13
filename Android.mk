@@ -132,7 +132,8 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
 	jsr305 \
 	libbackup \
 	libphonenumber \
-	volley
+	volley \
+	org.lineageos.lib.phone
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
 	android-support-core-ui \
