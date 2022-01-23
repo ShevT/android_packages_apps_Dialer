@@ -17,4 +17,5 @@
 <resources>
     <color name="dndn">#000000</color>
     <color name="dndndn">@*android:color/system_neutral1_50</color>
+    <color name="dialog_text_color">@*android:color/system_neutral1_900</color>
 </resources>
