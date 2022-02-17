@@ -17,14 +17,15 @@
         -->
         <item name="android:windowBackground">?android:attr/colorBackground</item>
         <item name="android:colorAccent">?android:attr/colorPrimary</item>
+        <item name="colorPrimary">@color/settings_primary</item>
     </style>
 
   <style name="Dialer.Dark.ThemeBase" parent="Dialer.Dark">
     <!-- These values should be used to color all backgrounds. -->
-    <!--
-    <item name="android:colorBackground">@color/google_grey_900</item>
-    <item name="android:colorBackgroundFloating">@color/google_grey_800</item>
-    -->
+
+    <item name="android:colorBackground">@color/dialer_background_color</item>
+    <item name="android:colorBackgroundFloating">@color/dialer_background_floating</item>
+    <item name="colorBackgroundSearchBar">@color/dialer_search_bar_color</item>
 
     <!-- These values should be used to set text color. -->
     <!-- swap text colors. -->
