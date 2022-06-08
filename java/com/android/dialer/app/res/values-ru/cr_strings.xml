@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2014 The CyanogenMod Project
+     Copyright (C) 2018 AICP ROM
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- InCall vibration settings -->
+
+    <string name="incall_category_title">Во время вызова</string>
+
+    <string name="incall_vibrate_outgoing_title">Вибрация при ответе</string>
+
+    <string name="incall_vibrate_call_waiting_title">Вибрация при ожидании</string>
+
+    <string name="incall_vibrate_hangup_title">Вибрация при разъединении</string>
+
+    <string name="incall_vibrate_45_title">Вибрировать каждую минуту</string>
+    <string name="incall_vibrate_45_summary">Вибрация каждые 45 секунд во время исходящих звонков</string>
+
+    <!-- InCall DnD settings -->
+    <string name="incall_enable_dnd_title">«Не беспокоить» во время вызова</string>
+    <string name="incall_dnd_dialog_message">Для включения режима «Не беспокоить» приложению «Телефон» должно быть разрешено управление статусом режима «Не беспокоить».\nПожалуйста, предоставьте разрешение.</string>
+    <string name="allow">Разрешить</string>
+    <string name="deny">Отклонить</string>
+
+    <!-- InCall Recording settings -->
+
+    <string name="call_recording_category_title">Запись вызова</string>
+
+    <string name="call_recording_format">Формат аудио</string>
+
+
+    <string name="auto_call_recording_title">Автозапись вызова</string>
+
+
+    <!-- Per-call account selection -->
+    <string name="call_via">Звонок через</string>
+    <string name="call_via_dialog_title">Позвонить через\u2026</string>
+
+    <!-- Call log statistics -->
+    <string name="call_log_stats_title">Статистика</string>
+
+    <!-- Full Screen Caller Photo -->
+    <string name="fullscreen_caller_photo_title">Полноэкранное фото</string>
+    <string name="fullscreen_caller_photo_summary">Показывать полноэкранное фото при входящих и исходящих звонках</string>
+    <string name="fullscreen_caller_photo_message">Для применения необходимо перезапустить приложение</string>
+
+    <!-- Preference titles -->
+    <string name="other_settings_label">Прочие настройки</string>
+    <string name="action_menu_helplines">Телефоны доверия</string>
+
+    <!-- Smart Options -->
+    <string name="smart_category_title">Другие настройки</string>
+    <string name="smart_mute_title">Умное отключение звука</string>
+    <string name="smart_mute_summary">Отключать звук входящего вызова переворотом устройства</string>
+
+    <!-- Proximity speaker -->
+    <string name="speaker_settings_label">Громкая связь</string>
+    <string name="prox_auto_speaker_title">Автоматическая громкая связь</string>
+    <string name="prox_auto_speaker_summary">Автовключение громкой связи при отдалении телефона от уха</string>
+    <string name="prox_auto_speaker_delay_title">Задержка включения громкой связи</string>
+    <string name="prox_auto_speaker_delay_dialog_title">Задержка включения громкой связи в (мс)</string>
+    <string name="prox_auto_speaker_delay_summary">Громкая связь будет включена через <xliff:g id="number">%d</xliff:g> мс</string>
+    <string name="prox_auto_speaker_incall_only_title">Только во время входящего звонка</string>
+    <string name="prox_auto_speaker_incall_only_summary_on">При исходящих звонках функция активируется только после ответа на вызов</string>
+    <string name="prox_auto_speaker_incall_only_summary_off">Функция будет активна при любых состояниях вызова (по умолчанию)</string>
+
+    <!-- Dialer postcall -->
+    <string name="enable_post_call_title">Уведомление после звонка</string>
+    <string name="enable_post_call_summary">Показывать уведомление после звонка в нижней части экрана</string>
+
+    <!-- Disable proximity sensor -->
+    <string name="disable_proximity_sensor_title">Отключить датчик приближения</string>
+    <string name="disable_proximity_sensor_summary">Не отключть экран, сенсорный экран и не использовать датчик приближения во время вызова</string>
+
+    <!-- proximity autoanswer feature -->
+    <string name="prox_auto_answer_incall_only_title">Автоответ</string>
+    <string name="prox_auto_answer_incall_only_summary">Использовать датчик приближения для автоответа</string>
+
+    <string name="auto_answer_call_title">Автоответчик</string>
+    <string name="auto_answer_call_summary">Использовать автоответчик когда подключена BT или проводная гарнитура</string>
+    <string name="auto_answer_delay_title">Задержка включения автоответчика</string>
+    <string name="auto_answer_dialog_title">Задержка автоответчика в (мс)</string>
+    <string name="auto_answer_delay_summary">Автоответчик будет включен через <xliff:g id="number">%d</xliff:g> мс</string>
+</resources>

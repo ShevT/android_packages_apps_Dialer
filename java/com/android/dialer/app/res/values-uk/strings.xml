@@ -118,7 +118,7 @@
   <string name="display_options_title">Параметри відображення</string>
   <string name="sounds_and_vibration_title">Звуки та вібрація</string>
   <string name="accessibility_settings_title">Спеціальні можливості</string>
-  <string name="ringtone_title">Сигнал дзвінка телефона</string>
+  <string name="ringtone_title">Мелодія дзвінка</string>
   <string name="vibrate_on_ring_title">Також вібрувати для дзвінків</string>
   <string name="dtmf_tone_enable_title">Звуки клавіатури</string>
   <string name="dtmf_tone_length_title">Тривалість звуків клавіатури</string>
